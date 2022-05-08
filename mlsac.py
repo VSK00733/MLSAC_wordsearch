@@ -17,5 +17,5 @@ if x=="HTTPS" or x=="https" or x=="Https":
     ''')
     st.balloons()
 else:
-    print('''Oh, incorrect answer! No problemo! Stay tuned to our instagram for 
+    st.write('''Oh, incorrect answer! No problemo! Stay tuned to our instagram for 
     further updates!''')
