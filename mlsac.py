@@ -11,7 +11,7 @@ Sounds exciting, doesn't it? So let's begin!!''')
 image=Image.open("mlsac.jpg")
 st.image(image,caption="Word search")
 p=0
-while p=0:
+while p==0:
     x=st.text_input("Enter the word you think is the correct answer!")
     p=1
 if x=="HTTPS" or x=="https" or x=="Https":
