@@ -10,7 +10,10 @@ under the Early Bird Offer and will get a sneak-peak of the BIG THING coming up!
 Sounds exciting, doesn't it? So let's begin!!''')
 image=Image.open("mlsac.jpg")
 st.image(image,caption="Word search")
-x=st.text_input("Enter the word you think is the correct answer!")
+p=0
+while p=0:
+    x=st.text_input("Enter the word you think is the correct answer!")
+    p=1
 if x=="HTTPS" or x=="https" or x=="Https":
     st.write('''Congratulations! You guessed it right!
     So, as promised, here is the sneak-peak!
