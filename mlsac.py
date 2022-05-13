@@ -16,6 +16,8 @@ if x=="HTTPS" or x=="https" or x=="Https":
     So, as promised, here is the sneak-peak!
     ''')
     st.balloons()
+elif x=="":
+    pass
 else:
     st.write('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
     further updates!''')
