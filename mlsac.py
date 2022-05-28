@@ -11,16 +11,19 @@ Sounds exciting, doesn't it? So let's begin!!''')
 image=Image.open("mlsac.jpg")
 st.image(image,caption="Word search")
 p=0
+
+z = st.empty()  #for single element container
+
 while p==0:
-    x=st.text_input("Enter the word you think is the correct answer!")
+    x=z.text_input("Enter the word you think is the correct answer!")
     if x=="HTTPS" or x=="https" or x=="Https":
-        st.write('''Congratulations! You guessed it right!
+        z.write('''Congratulations! You guessed it right!
         So, as promised, here is the sneak-peak!
         ''')
         st.balloons()
     elif x=="":
         pass
     else:
-        st.write('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
+        z.write('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
         further updates!''')
     p=1
