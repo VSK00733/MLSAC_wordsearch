@@ -18,7 +18,8 @@ while p==0:
     x=z.text_input("Enter the word you think is the correct answer!")
     if x=="HTTPS" or x=="https" or x=="Https":
         z.write('''Congratulations! You guessed it right!
-        So, as promised, here is the sneak-peak!
+        So, as promised, here is the sneak-peak! \n
+        https://drive.google.com/file/d/1KKU46dQFcCv1Cueh_T3Alb8-o1gLMA6R/view?usp=sharing
         ''')
         st.balloons()
     elif x=="":
