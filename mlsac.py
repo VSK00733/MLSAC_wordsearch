@@ -5,8 +5,7 @@ st.header("WORD SEARCH")
 st.write('''Hello there! Welcome to this word search!
 The rules are pretty simple. The following word search has 10 words related to MLSAC,
 technology and related things. One word in particular hints to a BIG THING coming up.
-You have to guess what that word is. If you are correct, you will get selected 
-under the Early Bird Offer and will get a sneak-peak of the BIG THING coming up!
+<b> You have to guess what that word is<b>. If you are correct, you will get a sneak-peak of the BIG THING coming up!
 Sounds exciting, doesn't it? So let's begin!!''')
 image=Image.open("mlsac.jpg")
 st.image(image,caption="Word search")
