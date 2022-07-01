@@ -17,14 +17,13 @@ while p==0:
     x=z.text_input("Enter the word you think is the correct answer!")
     if x=="HTTPS" or x=="https" or x=="Https":
         z.write('''Congratulations! You guessed it right!
-        So, as promised, here is the sneak-peak! \n
-        https://bit.ly/MLSAC_Surprise
+        \n
         ''')
         st.balloons()
         st.write(f'''
-        <a target="_self" href="https://eox.at">
+        <a target="_self" href="https://bit.ly/MLSAC_Surprise">
         <button>
-            Please login via Google
+            Click here for the Surprise!
         </button>
         </a>
         ''',
