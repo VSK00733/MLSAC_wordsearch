@@ -21,7 +21,7 @@ while p==0:
         ''')
         st.balloons()
         st.write(f'''
-        <a target="_self" href="https://bit.ly/MLSAC_Surprise">
+        <a href="https://bit.ly/MLSAC_Surprise">
         <button>
             Click here for the Surprise!
         </button>
