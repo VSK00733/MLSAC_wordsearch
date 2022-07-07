@@ -33,7 +33,7 @@ while p==0:
         footer {visibility: hidden;}
         </style>
 
-        """
+        '''
         st.markdown(hide_streamlit_style, unsafe_allow_html=True)
         ''',
         unsafe_allow_html=True
