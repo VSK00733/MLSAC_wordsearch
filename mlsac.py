@@ -22,7 +22,7 @@ while p==0:
         st.balloons()
         st.write(f'''
         <a href="https://bit.ly/MLSAC_Surprise">
-        <button style="border: none background: #0093f4 color: white width: 215px height 40px border-radius: 24px font-weight: 600 box-shadow: inset 0 0 12px #01010e">
+        <button style="border: none background: #0093f4 color: blue width: 215px height 40px border-radius: 24px font-weight: 600 box-shadow: inset 0 0 12px #01010e">
             Click here for the Surprise!
         </button>
         </a>
