@@ -41,7 +41,7 @@ hide_streamlit_style = """
 footer {visibility: hidden;}
 body {
    color: white;
-   background-color: <color of the bg>
+   background-color: blue
 }
 </style>
 
