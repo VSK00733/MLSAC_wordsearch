@@ -39,8 +39,9 @@ hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-</style>
 body {color: white; background-color: blue;}
+</style>
+
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
