@@ -40,7 +40,7 @@ hide_streamlit_style = """
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 </style>
-body {color: white; background-color: blue}
+body {color: white; background-color: blue;}
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
