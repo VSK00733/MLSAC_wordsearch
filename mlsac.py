@@ -15,7 +15,7 @@ z = st.empty()  #for single element container
 
 while p==0:
     x=z.text_input("Enter the word you think is the correct answer!")
-    if x.lower()=="https":
+    if x.lower()=="html":
         z.write('''Congratulations! You guessed it right!
         \n
         ''')
