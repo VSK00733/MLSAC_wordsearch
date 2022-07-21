@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_title="WORD SEARCH")
+st.set_page_config(page_title="WORD SEARCH", page_icon="logo.jpg")
 st.header("WORD SEARCH")
 st.write('''Hello there! Welcome to this word search!
 The rules are pretty simple. The following word search has 10 words related to MLSAC,
@@ -16,7 +16,7 @@ z = st.empty()  #for single element container
 while p==0:
     x=z.text_input("Enter the word you think is the correct answer!")
     if x.lower()=="html":
-        z.write('''Congratulations! You guessed it right!
+        z.success('''Congratulations! You guessed it right!
         \n
         ''')
         st.balloons()
@@ -32,8 +32,18 @@ while p==0:
     elif x=="":
         pass
     else:
-        z.write('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
-        further updates!''')
+        z.error('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
+        further updates.''')
+        st.subheader('Or you can retry!')
+        st.write(f'''
+        <a href="https://vsk00733-mlsac-wordsearch-mlsac-wg8o1c.streamlitapp.com/">
+        <button style="border:none; background:#0093f4; color:white; width:215px; height:40px; border-radius:24px; font-weight:600; box-shadow:inset 0 0 12px #01010e;">
+            Retry
+        </button>
+        </a>
+        ''',
+        unsafe_allow_html=True
+        )
     p=1
 hide_streamlit_style = """
 <style>
