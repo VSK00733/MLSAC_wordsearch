@@ -36,7 +36,7 @@ while p==0:
         further updates.''')
         st.subheader('Or you can retry!')
         st.write(f'''
-        <a href="https://vsk00733-mlsac-wordsearch-mlsac-wg8o1c.streamlitapp.com/">
+        <a href="/" target="_self">
         <button style="border:none; background:#0093f4; color:white; width:215px; height:40px; border-radius:24px; font-weight:600; box-shadow:inset 0 0 12px #01010e;">
             Retry
         </button>
