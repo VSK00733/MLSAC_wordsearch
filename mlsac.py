@@ -54,7 +54,5 @@ body {
    background-color: blue;
 }
 </style>
-
-
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
