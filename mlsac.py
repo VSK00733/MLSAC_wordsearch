@@ -34,7 +34,7 @@ while p==0:
     else:
         z.error('''Oh, incorrect answer.... No problemo! Stay tuned to our instagram for 
         further updates.''')
-        st.subheader('Or you can retry!')
+        st.text('Or you can retry!')
         st.write(f'''
         <a href="/" target="_self">
         <button style="border:none; background:#0093f4; color:white; width:215px; height:40px; border-radius:24px; font-weight:600; box-shadow:inset 0 0 12px #01010e;">
